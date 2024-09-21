@@ -7,9 +7,9 @@ PostgreSQL is a powerful, open source, object-relational database system. The .N
 
 * Registers EntityFrameworkCore in the DI container for connecting to PostgreSQL database.
 * Automatically configures the following:
-| Connection pooling to efficiently managed HTTP requests and database connections"
-| Automatic retries to increase app resiliency
-| Health checks, logging and telemetry to improve app monitoring and diagnostics
+    Connection pooling to efficiently managed HTTP requests and database connections"
+    Automatic retries to increase app resiliency
+    Health checks, logging and telemetry to improve app monitoring and diagnostics
 ## Get started
 To get started with the .NET Aspire PostgreSQL Entity Framework Core integration, install the Aspire.Npgsql.EntityFrameworkCore.PostgreSQL NuGet package in the client-consuming project, i.e., the project for the application that uses the PostgreSQL Entity Framework Core client.
 ```sh
