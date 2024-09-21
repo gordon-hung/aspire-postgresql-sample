@@ -1,0 +1,6 @@
+@Aspire.PostgreSQLSample.RESTful_HostAddress = http://localhost:5282
+
+GET {{Aspire.PostgreSQLSample.RESTful_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

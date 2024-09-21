@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.PostgreSQLSample.AppHost", "Aspire.PostgreSQLSample.AppHost\Aspire.PostgreSQLSample.AppHost.csproj", "{910B8823-3FC4-4F53-B3AD-A0EB77C6E1BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.PostgreSQLSample.ServiceDefaults", "Aspire.PostgreSQLSample.ServiceDefaults\Aspire.PostgreSQLSample.ServiceDefaults.csproj", "{82F050C2-13C0-445C-9ED9-A797AEFCB6A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.PostgreSQLSample.RESTful", "Aspire.PostgreSQLSample.RESTful\Aspire.PostgreSQLSample.RESTful.csproj", "{528E2F4D-9FA8-4800-9374-DAAF1680BE12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.PostgreSQLSample.MigrationEntry", "Aspire.PostgreSQLSample.MigrationEntry\Aspire.PostgreSQLSample.MigrationEntry.csproj", "{60BB4E5E-50F2-4A78-850E-EDBEEFA7FA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.PostgreSQLSample.Repositories", "Aspire.PostgreSQLSample.Repositories\Aspire.PostgreSQLSample.Repositories.csproj", "{5E463EEB-3248-41BF-AC72-C31A8F139D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.PostgreSQLSample.Core", "Aspire.PostgreSQLSample.Core\Aspire.PostgreSQLSample.Core.csproj", "{A2309269-4845-4CC6-80D8-FD3E5C5CA7E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{910B8823-3FC4-4F53-B3AD-A0EB77C6E1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910B8823-3FC4-4F53-B3AD-A0EB77C6E1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910B8823-3FC4-4F53-B3AD-A0EB77C6E1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910B8823-3FC4-4F53-B3AD-A0EB77C6E1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F050C2-13C0-445C-9ED9-A797AEFCB6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F050C2-13C0-445C-9ED9-A797AEFCB6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F050C2-13C0-445C-9ED9-A797AEFCB6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F050C2-13C0-445C-9ED9-A797AEFCB6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528E2F4D-9FA8-4800-9374-DAAF1680BE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528E2F4D-9FA8-4800-9374-DAAF1680BE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528E2F4D-9FA8-4800-9374-DAAF1680BE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528E2F4D-9FA8-4800-9374-DAAF1680BE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BB4E5E-50F2-4A78-850E-EDBEEFA7FA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BB4E5E-50F2-4A78-850E-EDBEEFA7FA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BB4E5E-50F2-4A78-850E-EDBEEFA7FA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BB4E5E-50F2-4A78-850E-EDBEEFA7FA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E463EEB-3248-41BF-AC72-C31A8F139D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E463EEB-3248-41BF-AC72-C31A8F139D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E463EEB-3248-41BF-AC72-C31A8F139D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E463EEB-3248-41BF-AC72-C31A8F139D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2309269-4845-4CC6-80D8-FD3E5C5CA7E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2309269-4845-4CC6-80D8-FD3E5C5CA7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2309269-4845-4CC6-80D8-FD3E5C5CA7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2309269-4845-4CC6-80D8-FD3E5C5CA7E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30BEE437-15EB-4EC1-A404-A6846143D977}
+	EndGlobalSection
+EndGlobal

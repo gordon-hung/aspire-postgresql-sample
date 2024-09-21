@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Npgsql" Version="8.2.0" />
+    <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspire.PostgreSQLSample.Core\Aspire.PostgreSQLSample.Core.csproj" />
+    <ProjectReference Include="..\Aspire.PostgreSQLSample.Repositories\Aspire.PostgreSQLSample.Repositories.csproj" />
+    <ProjectReference Include="..\Aspire.PostgreSQLSample.ServiceDefaults\Aspire.PostgreSQLSample.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>
